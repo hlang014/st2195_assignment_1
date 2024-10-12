@@ -1,0 +1,28 @@
+---
+title: "integers"
+output: html_document
+date: "2024-10-08"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Print 1 to 10
+
+The following codes will print **1 to 10**. ##Using For --- Loop You can use a for loop to write a better code, for example:
+
+```{r}
+for (x in 1:10)
+  print(x)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
